@@ -16,6 +16,11 @@ public class Projectile : MonoBehaviour
         this.transform.position += transform.forward * speed * Time.deltaTime;
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Collided with" + collision.gameObject.name);
+    }
+
 
 
 }
