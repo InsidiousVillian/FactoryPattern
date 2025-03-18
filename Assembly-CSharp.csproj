@@ -66,10 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Wizard\Wizard.cs" />
+    <Compile Include="Assets\Scripts\Factory\Fireball.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Properties\Tester.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\Properties\ModifiedProperty.cs" />
+    <Compile Include="Assets\Scripts\Factory\ISpell.cs" />
     <Compile Include="Assets\Scripts\Properties\BaseProperty.cs" />
   </ItemGroup>
   <ItemGroup>
