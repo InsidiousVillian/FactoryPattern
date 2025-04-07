@@ -7,6 +7,8 @@ public class Enums
         Fireball,
         IceShard,
         Shield,
+        Pulse,
+        LightningBolt,
         None
     }
 }
